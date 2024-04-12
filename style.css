@@ -35,25 +35,61 @@ body {
     border-radius: 1.5rem;
     margin-bottom: 2rem;
     padding: 1.5rem;
+    box-shadow: 20px 20px 20px rgb(0,0,0);
 }
-
+/*Card Main Image - Start*/
 .container .svgImage {
     border-radius: 1rem;
     margin-bottom: 1.5rem;
 }
+
+/*Card Main Image - End*/
+
+/*Card Main Content - Start*/
+
+.container .info {
+    width: 336px;
+    height: 194px;
+    margin-bottom: 1.5rem;
+}
+
 
 .container span h3 {
     background-color: var(--Yellow);
     width: 82px;
     height:29px;
     text-align: center;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.75rem;
     border-radius: 0.3rem;
 }
+
+.container .date {
+    margin-bottom: 0.8rem;
+}
+
+.container h2 {
+margin-bottom: 0.75rem;
+}
+
 .container .mainTxt {
     color: var(--Grey);
 }
+/*Card Main Content - End*/
 
+/*Card Profile - Start*/
+
+.container .profile {
+    display: flex;
+    width: 129px;
+    height: 32px;
+}
+.container .profile img {
+    margin-right: 0.8rem;
+}
+
+/*Card Profile - End*/
+
+/*Footer - Start*/
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -62,3 +98,4 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+/*Footer - End*/
