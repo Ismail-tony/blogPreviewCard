@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
 
 :root {
     /*Primary color*/
@@ -18,7 +21,8 @@
 
 body {
     background-color: var(--Yellow);
-    font-family: "Figtree", sans-serif;
+    font-family: Figtree;
+    font-weight: 400;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -35,7 +39,8 @@ body {
     border-radius: 1.5rem;
     margin-bottom: 2rem;
     padding: 1.5rem;
-    box-shadow: 20px 20px 20px rgb(0,0,0);
+    border: 1px solid black;
+    box-shadow: 10px 10px rgb(0,0,0);
 }
 /*Card Main Image - Start*/
 .container .svgImage {
@@ -48,18 +53,18 @@ body {
 /*Card Main Content - Start*/
 
 .container .info {
-    width: 336px;
-    height: 194px;
-    margin-bottom: 1.5rem;
+    width: 21rem;
+    height: 12.125rem;
 }
 
 
-.container span h3 {
+.container span h4 {
     background-color: var(--Yellow);
     width: 82px;
     height:29px;
     text-align: center;
     margin-bottom: 0.75rem;
+    padding: 0.313rem 0.313rem;
     border-radius: 0.3rem;
 }
 
@@ -68,23 +73,37 @@ body {
 }
 
 .container h2 {
-margin-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
 }
+
+.container h2:hover {
+    color: var(--Yellow);
+    cursor: pointer;
+}
+
+
 
 .container .mainTxt {
     color: var(--Grey);
+    margin-bottom: 1.5rem;
 }
 /*Card Main Content - End*/
 
 /*Card Profile - Start*/
 
-.container .profile {
-    display: flex;
-    width: 129px;
+ul {
+    list-style: none;
     height: 32px;
+    width: 129;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-.container .profile img {
-    margin-right: 0.8rem;
+
+ul li img {
+    height: 32px;
+    width: 32px;
+    margin-right: 0.75rem;
 }
 
 /*Card Profile - End*/
