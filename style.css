@@ -34,8 +34,6 @@ body {
 
 .container {
     background-color: var(--White);
-    width: 384px;
-    height: 522px;
     border-radius: 1.5rem;
     margin-bottom: 2rem;
     padding: 1.5rem;
@@ -55,6 +53,7 @@ body {
 .container .info {
     width: 21rem;
     height: 12.125rem;
+    margin-bottom: 0.75rem;
 }
 
 
@@ -85,7 +84,6 @@ body {
 
 .container .mainTxt {
     color: var(--Grey);
-    margin-bottom: 1.5rem;
 }
 /*Card Main Content - End*/
 
@@ -93,8 +91,6 @@ body {
 
 ul {
     list-style: none;
-    height: 32px;
-    width: 129;
     display: flex;
     flex-direction: row;
     align-items: center;
